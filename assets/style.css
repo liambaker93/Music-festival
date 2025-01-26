@@ -23,6 +23,10 @@ body {
 
 }
 
+.navbar {
+    margin-bottom: 25px;
+}
+
 .info-main {
     padding-top: 50px;
 }
