@@ -5,9 +5,15 @@
 
 ## Styling
 
+### Fonts
+
 The first font I found on google fonts was 'Almendra'.
 
 ![Almendra](./images/almendra-font.webp)
+
+### Colours
+
+
 
 ## User Stories
 
@@ -21,6 +27,6 @@ The first font I found on google fonts was 'Almendra'.
 
 [Used Google Fonts for fonts](https://fonts.google.com/)
 
-
+[Used Coolors to generate colour schemes](https://coolors.co/)
 
 [Used Balsamiq for wireframing](https://balsamiq.com/)
