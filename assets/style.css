@@ -1,9 +1,25 @@
 /* Custom google font link */
 @import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* CSS HEX provided by coolors*/
+:root {
+--eerie-black: #111d13ff;
+--shamrock-green: #499f68ff;
+--rose-ebony: #613a3aff;
+--lavender-pink: #f9b3d1ff;
+--salmon-pink: #ef959dff;
+}
+
 /* CSS Variables */
 :root {
     --primary-font: "Almendra", sans-serif;
+    --primary-color: var(--rose-ebony);
+}
+
+/* Global styles */
+
+body {
+    background-color: var(--primary-color);
     
 }
 
