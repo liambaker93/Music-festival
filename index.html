@@ -7,7 +7,10 @@
     <!--Festival homepage needs naming-->
     <title>Music Festival | Homepage</title>
     <!--Font awesome link-->
-    <script src="https://kit.fontawesome.com/949380d262.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/949380d262.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Bootstrap CSS link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,59 +24,111 @@
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Artists</a>
-              <a class="nav-link" href="#">Food</a>
-              <a class="nav-link" href="#">Book Now</a>
-            </div>
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Artists</a>
+            <a class="nav-link" href="#">Food</a>
+            <a class="nav-link" href="#">Book Now</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!--Header for main page-->
     <header>
-        <h1>Music Festival</h1>
-        <p>Come join the fastest growing music festival in the UK</p>
+      <h1>Music Festival</h1>
+      <p>Come join the fastest growing music festival in the UK</p>
     </header>
     <!--Main Section with carousel of images and info about the festival-->
     <main class="row justify-content-center info-main">
-        <!--Information box-->
-        <div class="card col-8 info-card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
+      <!--Information box-->
+      <div class="card col-8 info-card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <!--Image carousel-->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide col-4 info-carousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/homepage-images/festival-homepage-1.webp"
+              class="d-block w-100"
+              alt="Woman holding a flag, sitting on someone's shoulders watching a performance."
+            />
           </div>
-        <!--Image carousel-->
-        <div id="carouselExampleAutoplaying" class="carousel slide col-4 info-carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="carousel-item">
+            <img
+              src="assets/homepage-images/festival-homepage-3.webp"
+              class="d-block w-100"
+              alt="A fan holding their hands up in the air during a performance"
+            />
           </div>
+          <div class="carousel-item">
+            <!--Double check about duplicating alt text-->
+            <img
+              src="assets/homepage-images/festival-homepage-4.webp"
+              class="d-block w-100"
+              alt="A fan holding their hands up in the air during a performance"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/homepage-images/festival-homepage-5.webp"
+              class="d-block w-100"
+              alt="A crowd cheering while being covered in paint sprayed through the air."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/homepage-images/festival-homepage-6.webp"
+              class="d-block w-100"
+              alt="A man and a woman playing guitar on stage, with the woman also singing."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
     <!--Bootstrap JS link-->
     <script
