@@ -37,6 +37,6 @@ body {
 }
 
 .carousel img {
-    max-height: 376px;
+    overflow: hidden;
 }
 
