@@ -1,27 +1,14 @@
 # Project-Milestone-1
  Code Institute milestone project 1 - music festival website
 
-## Initial Wireframes
+## Table of Contents
 
-### Desktop Wireframes
+1. Rationale
+2. User Stories
+3. Styling
+4. 
 
-![Homepage wireframe - Desktop size](./images/Home%20page%20_%20Desktop.webp)
-
-![Artist page wireframe - Desktop size](./images/Artists%20page%20_%20Desktop.webp)
-
-![Food page wireframe - Desktop size](./images/Food%20page%20_%20Desktop.webp)
-
-![Booking page wireframe - Desktop size](./images/Booking%20page%20_%20Desktop.webp)
-
-## Styling
-
-### Fonts
-
-The first font I found on google fonts was 'Almendra'.
-
-![Almendra](./images/almendra-font.webp)
-
-### Colours
+## Rationale
 
 
 
@@ -35,6 +22,30 @@ timings, and see what food options there are for me.
 
 I'm a food vendor and want to be able to sign up to bring  my business to the festival, so will
 need a way to contact the organisers.
+
+## Wireframes
+
+### Desktop Wireframes
+
+![Homepage wireframe - Desktop size](./images/home-page-desktop.webp)
+
+![Artist page wireframe - Desktop size](./images/artists-page-desktop.webp)
+
+![Food page wireframe - Desktop size](./images/food-page-desktop.webp)
+
+![Booking page wireframe - Desktop size](./images/booking-page-desktop.webp)
+
+## Styling
+
+### Fonts
+
+The first font I found on google fonts was 'Almendra'.
+
+![Almendra](./images/almendra-font.webp)
+
+### Colours
+
+
 
 ## Testing
 
