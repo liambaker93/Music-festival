@@ -3,6 +3,16 @@
 
 ## Initial Wireframes
 
+### Desktop Wireframes
+
+![Homepage wireframe - Desktop size](./images/Home%20page%20_%20Desktop.webp)
+
+![Artist page wireframe - Desktop size](./images/Artists%20page%20_%20Desktop.webp)
+
+![Food page wireframe - Desktop size](./images/Food%20page%20_%20Desktop.webp)
+
+![Booking page wireframe - Desktop size](./images/Booking%20page%20_%20Desktop.webp)
+
 ## Styling
 
 ### Fonts
@@ -16,6 +26,15 @@ The first font I found on google fonts was 'Almendra'.
 
 
 ## User Stories
+
+I don't go to many festivals but particularly want to see one artist and want the flexibility
+to go just to see them.
+
+I'm a regular festival goer and want to see the variety of artists I can watch, different
+timings, and see what food options there are for me. 
+
+I'm a food vendor and want to be able to sign up to bring  my business to the festival, so will
+need a way to contact the organisers.
 
 ## Testing
 
