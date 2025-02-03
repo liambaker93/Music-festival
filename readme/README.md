@@ -37,6 +37,8 @@ The first font I found on google fonts was 'Almendra'.
 
 <!--Photos for homepage carousel-->
 
+#### Homepage Images
+
 [Photo by Brett Sayles](https://www.pexels.com/photo/woman-playing-guitar-while-singing-beside-man-playing-bass-guitar-near-microphone-1309240/)
 
 [Photo by Brett Sayles](https://www.pexels.com/photo/woman-playing-guitar-while-singing-beside-man-playing-bass-guitar-near-microphone-1309240/)
@@ -48,3 +50,9 @@ The first font I found on google fonts was 'Almendra'.
 [Photo by Sebastian Ervi](https://www.pexels.com/photo/silhouette-of-people-in-front-of-stage-1763067/)
 
 [Photo by Sebastian Ervi](https://www.pexels.com/photo/people-in-concert-1763075/)
+
+<!--Photos for Food cards-->
+
+#### Food Page Images
+
+[Photos for the food cards were generated using Google Gemini](gemini.google.com)
