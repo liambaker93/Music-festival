@@ -81,6 +81,14 @@ The first font I found on google fonts was 'Almendra'.
 
 [Photo by Sebastian Ervi](https://www.pexels.com/photo/people-in-concert-1763075/)
 
+#### Artists Page Images
+
+<!--Photos for artists cards-->
+
+[Photo by Clam Lo](https://www.pexels.com/photo/photo-of-man-playing-guitar-3469692/)
+
+[Photo by Aleksandr Neplokhov](https://www.pexels.com/photo/band-playing-at-the-street-2601189/)
+
 <!--Photos for Food cards-->
 
 #### Food Page Images
