@@ -51,6 +51,10 @@ body {
     text-align: center;
 }
 
+#primary-artists .card {
+    max-height: 383px;
+}
+
 /* Footer styling */
 
 footer {
