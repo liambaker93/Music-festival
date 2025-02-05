@@ -43,6 +43,10 @@ The first font I found on google fonts was 'Almendra'.
 
 ![Almendra](./images/almendra-font.webp)
 
+The next font I found which became the 'secondary-font' variable was 'Raleway'.
+
+![Raleway](./images/raleway.webp)
+
 ### Colours
 
 
