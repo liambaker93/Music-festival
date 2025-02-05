@@ -40,6 +40,17 @@ body {
     overflow: hidden;
 }
 
+/* Artists page styling */
+
+#primary-artists {
+    margin-bottom: 20px;
+    row-gap: 25px;
+}
+
+#primary-artists h1 {
+    text-align: center;
+}
+
 /* Footer styling */
 
 footer ul {
