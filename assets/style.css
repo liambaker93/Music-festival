@@ -40,3 +40,15 @@ body {
     overflow: hidden;
 }
 
+/* Footer styling */
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    margin-right: 50px;
+    text-align: center;
+}
+
