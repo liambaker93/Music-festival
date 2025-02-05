@@ -61,6 +61,7 @@ p {
 
 #primary-artists h1 {
     text-align: center;
+    color: var(--salmon-pink);
 }
 
 /* Footer styling */
