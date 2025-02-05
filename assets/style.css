@@ -53,6 +53,10 @@ body {
 
 /* Footer styling */
 
+footer {
+    margin-top: 25px;
+}
+
 footer ul {
     display: flex;
     flex-direction: row;
