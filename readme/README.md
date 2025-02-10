@@ -93,6 +93,14 @@ The next font I found which became the 'secondary-font' variable was 'Raleway'.
 
 [Photo by Aleksandr Neplokhov](https://www.pexels.com/photo/band-playing-at-the-street-2601189/)
 
+[Photo by Wendy Wei](https://www.pexels.com/photo/woman-playing-electric-guitar-1864641/)
+
+[Photo by Cottonbro Studio](https://www.pexels.com/photo/man-playing-saxophone-5650950/)
+
+[Photo by Pixabay](https://www.pexels.com/photo/group-of-four-men-rock-band-210887/)
+
+[Photo by Luis Quintero](https://www.pexels.com/photo/woman-singing-on-stage-2091375/)
+
 <!--Photos for Food cards-->
 
 #### Food Page Images
