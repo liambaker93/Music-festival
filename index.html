@@ -88,7 +88,10 @@
             <p>
               Take a look at the artists on offer, some of the unique, local
               food we have for you to enjoy, and
-              <a href="booking.html">book your weekend ticket now.</a>
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  book your weekend ticket now.
+</button>
             </p>
           </div>
         </div>
@@ -149,16 +152,34 @@
             class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next"
-          >
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
     </main>
+    <!--Weekend booking modal-->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!--Footer section showing address and social links-->
-    <footer class="container footer">
+    <footer class="container">
       <div class="row">
         <a
           href="https://www.facebook.com"
