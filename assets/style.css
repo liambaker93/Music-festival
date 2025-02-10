@@ -50,7 +50,7 @@ p {
 
 }
 
-#hero-image h1, p {
+#hero-image > h1, p {
     color: var(--shamrock-green);
 }
 
@@ -73,6 +73,12 @@ p {
 #primary-artists h1 {
     text-align: center;
     color: var(--salmon-pink);
+}
+
+/* Food page styling */
+
+.food-row {
+    padding-bottom: 50px;
 }
 
 /* Footer styling */
