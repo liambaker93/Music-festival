@@ -87,6 +87,10 @@ p {
     padding-bottom: 50px;
 }
 
+.food-row > img {
+    width: 500%;
+}
+
 /* Footer styling */
 
 footer {
