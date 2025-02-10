@@ -42,11 +42,20 @@ p {
 
 /* Index page styles */
 
+#hero-image {
+    display: block;
+
+    width: 100%;
+    background: url(./homepage-images/festival-homepage-2.webp);
+
+}
+
+#hero-image h1, p {
+    color: var(--shamrock-green);
+}
+
 .info-main {
     padding-top: 50px;
-} 
-
-.info-card {
     border-radius: 0;
 }
 
