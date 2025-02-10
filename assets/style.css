@@ -44,8 +44,8 @@ p {
 
 #hero-image {
     display: block;
-
     width: 100%;
+    height: 125px;
     background: url(./homepage-images/festival-homepage-2.webp);
 
 }
@@ -57,9 +57,11 @@ p {
 .info-main {
     padding-top: 50px;
     border-radius: 0;
+    height: 495px;
+    margin-bottom: 150px;
 }
 
-.carousel img {
+.carousel-item {
     overflow: hidden;
 }
 
