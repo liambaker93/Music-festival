@@ -66,13 +66,17 @@ p {
 /* Artists page styling */
 
 #primary-artists {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     row-gap: 25px;
 }
 
 #primary-artists h1 {
     text-align: center;
     color: var(--salmon-pink);
+}
+
+#secondary-artists {
+    margin-bottom: 20px;
 }
 
 /* Food page styling */
