@@ -59,6 +59,12 @@ The next font I found which became the 'secondary-font' variable was 'Raleway'.
 
 ## References (Fonts, bootstrap etc)
 
+### Education Tools
+
+[Digital Ocean helped with troubleshooting issues relating to image sizing within cards](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit)
+
+### Design Tools
+
 [Used Google Fonts for fonts](https://fonts.google.com/)
 
 [Used Coolors to generate colour schemes](https://coolors.co/)
