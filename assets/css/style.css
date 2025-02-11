@@ -43,7 +43,7 @@ p {
 /* Index page styles */
 
 #hero-image {
-    background: url(./homepage-images/festival-homepage-2.webp);
+    background: url(../homepage-images/festival-homepage-2.webp);
     background-size: 88%;
     background-position: 45% -70%;
     width: 100%;
