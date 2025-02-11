@@ -50,13 +50,10 @@ p {
     height: 275px;
 }
 
-#hero-image > h1, h2 , h3 {
-    color: var(--shamrock-green);
-    text-shadow: white 0px 0px 50px;
-}
 
 .head-text {
     border-color: white;
+    color: var(--shamrock-green);
 }
 
 .info-main {
