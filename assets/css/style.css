@@ -50,9 +50,13 @@ p {
     height: 275px;
 }
 
-#hero-image > h1, h2 {
+#hero-image > h1, h2 , h3 {
     color: var(--shamrock-green);
-    text-shadow: var(--eerie-black) 0px 0px 50px;
+    text-shadow: white 0px 0px 50px;
+}
+
+.head-text {
+    border-color: white;
 }
 
 .info-main {
@@ -125,7 +129,7 @@ p {
 /* Footer styling */
 
 footer {
-    margin-top: 25px;
+    padding-top: 50px;
     padding-bottom: 15px;
 }
 
