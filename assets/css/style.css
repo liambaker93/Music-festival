@@ -53,7 +53,13 @@ p {
 .head-text {
     color: var(--shamrock-green);
     text-shadow: gray 2px 2px;
-    
+   /* padding-top: 82px; */
+}
+
+.homepage-heading {
+    color: var(--shamrock-green);
+    text-align: center;
+    padding-top: 5px;
 }
 
 .info-main {
