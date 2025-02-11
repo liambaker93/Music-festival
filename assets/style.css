@@ -52,6 +52,7 @@ p {
 
 #hero-image > h1, h2 {
     color: var(--shamrock-green);
+    text-shadow: white 0px 0px 50px;
 }
 
 .info-main {
