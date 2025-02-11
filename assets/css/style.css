@@ -63,10 +63,15 @@ p {
 }
 
 .info-main {
-    padding-top: 50px;
+    padding-top: 35px;
     border-radius: 0;
     height: 495px;
     margin-bottom: 150px;
+}
+
+.info-main h2 {
+    color: var(--shamrock-green);
+    font-family: var(--primary-font);
 }
 
 .carousel-item {
