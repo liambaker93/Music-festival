@@ -82,6 +82,23 @@ p {
     margin-bottom: 20px;
 }
 
+.secondary-artists-card {
+    width: 350px;
+    height: 300px;
+    padding: 0;
+}
+
+.secondary-artists-card > img {
+    height: 240px;
+}
+
+.img-crop {
+    height: 240px;
+    object-fit: cover;
+}
+
+
+
 /* Food page styling */
 
 .food-row {
@@ -90,7 +107,7 @@ p {
 
 .food-row > img {
     width: 500%;
-}
+} 
 
 /* Footer styling */
 
