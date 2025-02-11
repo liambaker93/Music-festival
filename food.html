@@ -12,8 +12,18 @@
       crossorigin="anonymous"
     ></script>
     <!--Favicon-->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/Icon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/Icon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/Icon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/Icon-32x32.png"
+    />
     <!--Bootstrap CSS link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -66,7 +76,12 @@
               Try Luigi's authentic wood fired Italian Pizza right by the main
               stage
             </p>
-            <a href="#" class="btn btn-primary">See their menu</a>
+          <!-- Button trigger modal --><a
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#foodmodal"
+          >See their menu</a
+        >
           </div>
         </div>
         <div class="card col-4 food-card">
@@ -81,7 +96,12 @@
               Eat local with Phil, trying his falafel recipes next to the main
               stage
             </p>
-            <a href="#" class="btn btn-primary">See their menu</a>
+           <!-- Button trigger modal --><a
+           class="btn btn-primary"
+           data-bs-toggle="modal"
+           data-bs-target="#foodmodal"
+           >See their menu</a
+         >
           </div>
         </div>
       </div>
@@ -98,7 +118,12 @@
               We've secured Garden Romsey's Burgers to send their iconic van for
               the whole weekend, right by the entrance to the arena
             </p>
-            <a href="#" class="btn btn-primary">See their menu</a>
+           <!-- Button trigger modal --><a
+           class="btn btn-primary"
+           data-bs-toggle="modal"
+           data-bs-target="#foodmodal"
+           >See their menu</a
+         >
           </div>
         </div>
         <div class="card col-4 food-card">
@@ -114,97 +139,111 @@
               to some cakes and pastries next to the arena exit.
             </p>
             <!-- Button trigger modal --><a
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#foodmodal"
-            >See their menu</a
-          >
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#foodmodal"
+              >See their menu</a
+            >
           </div>
         </div>
       </div>
     </main>
-        <!-- Modal for menu choices-->
-        <div
-        class="modal fade"
-        id="foodmodal"
-        tabindex="-1"
-        aria-labelledby="foodMenuModal"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="foodmodal">Book Your Weekend Ticket</h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">...</div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+    <!-- Modal for menu choices-->
+    <div
+      class="modal fade"
+      id="foodmodal"
+      tabindex="-1"
+      aria-labelledby="foodMenuModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="foodmodal">Oops! No Menu yet</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Unfortunately we're still working with partners to get their menus
+            to us, but follow our socials to get updated the moment we have
+            them!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              class="btn btn-primary instagram-button"
+              role="button"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page. Opens in a new tab"
+              >Follow us on Instagram</a
+            >
           </div>
         </div>
       </div>
+    </div>
     <!--Footer section showing address and social links-->
     <footer class="container">
       <div class="row">
-      <ul>
-        <li>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page. Opens in a new tab"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page. Opens in a new tab">
-            <i class="fa-brands fa-square-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.spotify.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our custom Spotify playlist. Opens in a new tab">
-            <i class="fa-brands fa-spotify"></i>
-          </a>
-        </li>
-      </ul>
-      <!--Google map embed-->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16775.189163331914!2d-1.3646566279027768!3d51.31762236022873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487402c228aba4ff%3A0xbfabd011e57f0b8e!2sBeacon%20Hillfort!5e0!3m2!1sen!2suk!4v1738754889217!5m2!1sen!2suk"
-        width="400"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page. Opens in a new tab"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page. Opens in a new tab"
+            >
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.spotify.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our custom Spotify playlist. Opens in a new tab"
+            >
+              <i class="fa-brands fa-spotify"></i>
+            </a>
+          </li>
+        </ul>
+        <!--Google map embed-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16775.189163331914!2d-1.3646566279027768!3d51.31762236022873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487402c228aba4ff%3A0xbfabd011e57f0b8e!2sBeacon%20Hillfort!5e0!3m2!1sen!2suk!4v1738754889217!5m2!1sen!2suk"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </footer>
-<!--Bootstrap JS link-->
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-      ></script>
+    <!--Bootstrap JS link-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
