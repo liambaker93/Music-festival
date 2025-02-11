@@ -36,6 +36,10 @@ p {
 
 /* Navbar styles */
 
+.navbar-img {
+    width: 25px;
+    height: 25px;
+}
 
 /* Index page styles */
 
