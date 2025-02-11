@@ -50,10 +50,10 @@ p {
     height: 275px;
 }
 
-
 .head-text {
-    border-color: white;
     color: var(--shamrock-green);
+    text-shadow: gray 2px 2px;
+    
 }
 
 .info-main {
