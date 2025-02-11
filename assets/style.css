@@ -112,6 +112,16 @@ p {
     padding-right: 0px;
 }
 
+.spotify-button {
+    background-color: var(--shamrock-green);
+    border-color: var(--shamrock-green);
+}
+
+.instagram-button {
+    background-color: var(--salmon-pink);
+    border-color: var(--salmon-pink);
+}
+
 /* Footer styling */
 
 footer {
