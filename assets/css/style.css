@@ -129,17 +129,10 @@ p {
 /* Footer styling */
 
 footer {
+
     padding-top: 50px;
     padding-bottom: 15px;
-}
-
-footer ul {
-    display: flex;
-    flex-direction: row;
-}
-
-footer li {
-    margin-right: 50px;
     text-align: center;
+
 }
 
