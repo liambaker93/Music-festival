@@ -65,23 +65,25 @@ p {
     padding-top: 5px;
 }
 
+.info-text {
+    height: 495px;
+
+}
+
 .info-main .card, .carousel {
     margin-top: 35px;
     border-radius: 0;
 }
 
 .carousel-item, .carousel-inner {
-    padding-top: 20px;
+   /* padding-top: 20px; */
     height: 495px;
+    overflow: hidden;
 }
 
 .info-main h2 {
     color: var(--shamrock-green);
     font-family: var(--primary-font);
-}
-
-.carousel-item {
-    overflow: hidden;
 }
 
 /* Artists page styling */
