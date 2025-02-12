@@ -9,6 +9,7 @@
 --rose-ebony: #613a3aff;
 --lavender-pink: #f9b3d1ff;
 --salmon-pink: #ef959dff;
+--title-green: rgb(151, 231, 181);
 }
 
 /* CSS Variables */
@@ -36,26 +37,26 @@ p {
 
 /* Navbar styles */
 
-.navbar-img {
-    width: 25px;
-    height: 25px;
+.navbar img {
+    width: 20px;
+    height: 20px;
 }
 
 /* Index page styles */
 
 #hero-image {
-    background: url(../homepage-images/festival-homepage-2.webp);
-    background-size: 88%;
-    background-position: 45% -70%;
-    width: 100%;
-    height: 275px;
-    margin-top: 75px;
+    background: url("../homepage-images/festival-homepage-2.webp") no-repeat;
+    background-position: 50% 91%;
+    background-clip: content-box;
+    
+    margin-top: 75px; 
 }
 
-.head-text {
-    color: var(--shamrock-green);
-    text-shadow: gray 2px 2px;
-   /* padding-top: 82px; */
+.head-text * {
+    color: var(--title-green);
+    text-shadow: #a19999 2px 2px;
+    padding-top: 82px; 
+    font-size: 7rem;
 }
 
 .homepage-heading {
