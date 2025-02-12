@@ -65,11 +65,14 @@ p {
     padding-top: 5px;
 }
 
-.info-main {
-    padding-top: 35px;
+.info-main .card, .carousel {
+    margin-top: 35px;
     border-radius: 0;
+}
+
+.carousel-item, .carousel-inner {
+    padding-top: 20px;
     height: 495px;
-    margin-bottom: 150px;
 }
 
 .info-main h2 {
