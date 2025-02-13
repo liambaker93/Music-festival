@@ -180,24 +180,30 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Weekend Ticket</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+    <!--Booking form-->
+    <main class="container">
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" required>
+        </div>
+        <div class="col-6 col-md-6">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" required>
+        </div>
+        <div class="col-6 col-md-6">
+          <label for="input-ticket-type" class="form-label">Ticket Type</label>
+          <select id="input-ticket-type" class="form-select" required>
+            <option>Full Weekend</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Book Ticket</button>
+        </div>
+      </form>
+    </main>
           </div>
         </div>
       </div>
