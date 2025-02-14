@@ -157,6 +157,12 @@ p {
     border-color: var(--shamrock-green);
 }
 
+/* Success page styling */
+
+.success-text {
+    color: var(--salmon-pink);
+}
+
 /* Footer styling */
 
 footer {
