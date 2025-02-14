@@ -168,7 +168,18 @@ p {
 footer {
     padding-top: 50px;
     padding-bottom: 15px;
+    max-width: 100vh;
     text-align: center;
+    background-color: var(--eerie-black);
+}
+
+.footer-two a {
+    color: var(--lavender-pink);
+    width: 85px;
+}
+
+.footer-text {
+    color: var(--salmon-pink);
 }
 
 /* Media queries */
