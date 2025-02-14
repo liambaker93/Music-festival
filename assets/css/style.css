@@ -146,6 +146,11 @@ p {
     font-size: larger;
 }
 
+.booking-btn:hover {
+    background-color: var(--shamrock-green);
+    border-color: var(--shamrock-green);
+}
+
 /* Footer styling */
 
 footer {
