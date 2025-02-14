@@ -164,10 +164,11 @@ p {
 
 /* Footer styling */
 
-footer {
-    padding-bottom: 15px;
+.footer-one {
     text-align: center;
     background-color: var(--eerie-black);
+    height: 400px;
+    color: var(--salmon-pink);
 }
 
 .footer-two a {
