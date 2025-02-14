@@ -146,6 +146,12 @@ p {
     font-size: larger;
 }
 
+.booking-btn {
+    background-color: var(--salmon-pink);
+    border-color: var(--salmon-pink);
+    color: var(--eerie-black);
+}
+
 .booking-btn:hover {
     background-color: var(--shamrock-green);
     border-color: var(--shamrock-green);
