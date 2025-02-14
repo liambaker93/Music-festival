@@ -24,6 +24,7 @@
 body {
     background-color: var(--primary-color);
     font-family: var(--primary-font);
+    padding-top: 75px;
 
 }
 
@@ -37,10 +38,6 @@ p {
 
 /* Navbar styles */
 
-.navbar img {
-    width: 20px;
-    height: 20px;
-}
 
 /* Index page styles */
 
@@ -49,7 +46,7 @@ p {
     background-position: 50% 91%;
     background-clip: content-box;
     
-    margin-top: 75px; 
+
 }
 
 .head-text * {
@@ -62,7 +59,7 @@ p {
 .homepage-heading {
     color: var(--shamrock-green);
     text-align: center;
-    padding-top: 5px;
+   /* padding-top: 5px; */
 }
 
 .info-text {
