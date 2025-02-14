@@ -139,6 +139,13 @@ p {
     border-color: var(--salmon-pink);
 }
 
+/* Booking page styling */
+
+.booking-form {
+    color: var(--salmon-pink);
+    font-size: larger;
+}
+
 /* Footer styling */
 
 footer {
