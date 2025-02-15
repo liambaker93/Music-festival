@@ -167,16 +167,29 @@ p {
 .footer-one {
     text-align: center;
     background-color: var(--eerie-black);
-    height: 400px;
     color: var(--salmon-pink);
+    margin-top: 20px;
+}
+
+.footer-map {
+    min-height: 100%;
 }
 
 .footer-two a {
     color: var(--lavender-pink);
 }
 
+.footer-social {
+    padding-top: 20px;
+}
+
 i {
     font-size: 30px;
+    color: var(--salmon-pink);
+}
+
+i:hover {
+    color: var(--shamrock-green);
 }
 
 .footer-text {
