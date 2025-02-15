@@ -58,7 +58,7 @@ p {
 .homepage-heading {
     color: var(--shamrock-green);
     text-align: center;
-   /* padding-top: 5px; */
+    padding-top: 15px;
 }
 
 .info-text {
@@ -173,7 +173,10 @@ p {
 
 .footer-two a {
     color: var(--lavender-pink);
-    width: 85px;
+}
+
+i {
+    font-size: 30px;
 }
 
 .footer-text {
