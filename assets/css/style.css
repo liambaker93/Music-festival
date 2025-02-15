@@ -126,6 +126,7 @@ p {
 .food-card {
     padding-left: 0px;
     padding-right: 0px;
+    margin-bottom: 15px;
 }
 
 .spotify-button {
@@ -168,7 +169,7 @@ p {
     text-align: center;
     background-color: var(--eerie-black);
     color: var(--salmon-pink);
-    margin-top: 20px;
+    
 }
 
 .footer-map {
