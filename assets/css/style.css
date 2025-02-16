@@ -92,10 +92,6 @@ p {
     color: var(--salmon-pink);
 }
 
-/*.saturday-headliner {
-    
-} */
-
 #secondary-artists {
     margin-bottom: 20px;
 }
@@ -104,6 +100,12 @@ p {
     width: 325px;
     height: 300px;
     padding: 0;
+}
+
+.secondary-heading {
+    padding: 5px 0 5px 0;
+    font-family: var(--primary-font);
+    color: var(--salmon-pink);
 }
 
 .secondary-artists-card > img {
@@ -206,6 +208,17 @@ i:hover {
 }
 
 /* Medium devices (768px and up) */
+
+@media screen and (max-width: 768px) {
+    
+    .hidden-artist {
+        display: none;
+    }
+
+    #secondary-artists {
+        margin-bottom: 5px;
+    }
+}
 
 /* Large devices (992px and up) */
 
