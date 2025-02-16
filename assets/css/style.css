@@ -44,8 +44,6 @@ p {
     background: url("../homepage-images/festival-homepage-2.webp") no-repeat;
     background-position: 50% 91%;
     background-clip: content-box;
-    
-
 }
 
 .head-text * {
@@ -118,10 +116,6 @@ p {
 } 
 
 /* Food page styling */
-
-.food-row {
-    padding-top: 50px;
-}
 
 .food-card {
     padding-left: 0px;
