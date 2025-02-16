@@ -166,16 +166,12 @@ p {
     
 }
 
-.footer-map {
-    min-height: 100%;
-}
-
-.footer-two a {
-    color: var(--lavender-pink);
-}
-
 .footer-social {
     padding-top: 20px;
+}
+
+iframe {
+    padding-top: 8px;
 }
 
 i {
@@ -194,6 +190,20 @@ i:hover {
 /* Media queries */
 
 /* Small devices (576px and up) */
+
+@media screen and (max-width: 576px) {
+    /* Hides map on smaller screen sizes */
+    iframe { 
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    /* Hides address on bigger screen sizes */
+    .footer-address {
+        display: none;
+    }
+}
 
 /* Medium devices (768px and up) */
 
