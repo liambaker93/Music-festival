@@ -158,11 +158,39 @@ The final validation results can be found [here](./TESTING.md/#w3c-validator)
 | 1 | Logo in navbar wasn't appearing | I had changed the filepath for the logo as I needed to take a capital out of the name to keep in named traditionally. Fixing the file path then brought back the logo. |
 | 2 | Artist page had a horizontal scroll bar. | This was due to the main content of the page not being wrapped in it's own div element with a col class to keep it within bootstrap's defined width. |
 | 3 | Footer wasn't reaching full width of the page | The footer was kept in a container class which was unneeded, and once removed pushed the footer as wide as the screen size. |
+| 4 | On the booking page, the toggle button for the nav bar wasn't working when pressed. | I simply had not added the javascript for bootstrap to the bottom of the body. |
+| 5 | After placing my logo into my navbar, when looking on a smaller screen size, it jumped to the right side of the nav and the toggle button jumped to the left | I had to move the placing in the html of the logo to be before the toggle not after, as this was causing the elements to swap places |
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+The site has been deployed using GitHub Pages - [Through The Trees](https://liambaker93.github.io/through-the-trees/index.html)
+
+To Deploy the site using GitHub Pages:
+
+1. Login or signup to [GitHub](https://github.com/)
+2. Follow the link to the repository for this project: [liambaker93/through-the-trees](https://github.com/liambaker93/through-the-trees)
+3. Click the Settings button
+4. Select pages from the navigation menu on the left side
+5. Using the source dropdown, select main branch and press save.
+6. The site is now being deployed, note that it may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Login or signup to [GitHub](https://github.com/)
+2. Follow the link to the repository for this project: [liambaker93/through-the-trees](https://github.com/liambaker93/through-the-trees)
+3. Click the Fork button above the about section.
+
+To clone the repository:
 
 
-
-
-## Deployment
 
 ## References (Fonts, bootstrap etc)
 
@@ -220,5 +248,3 @@ The final validation results can be found [here](./TESTING.md/#w3c-validator)
 
 [Photos for the food cards were generated using Google Gemini](gemini.google.com)
 
-
-[def]: ../music-festival/readme/images/wireframes/home-page-desktop.webp
