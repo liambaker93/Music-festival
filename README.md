@@ -2,7 +2,7 @@
 
 Welcome to the README for the Through The Trees music festival website.
 
-Visit the deployed site: [Through The Trees](https://liambaker93.github.io/Music-festival/index.html)
+Visit the deployed site: [Through The Trees](https://liambaker93.github.io/through-the-trees/)
 
 I wanted to create a site that could showcase similar kinds of content in different ways showcase what I've learnt so far regarding using HTML and CSS together to code a responsive, visually appealing website.
 
