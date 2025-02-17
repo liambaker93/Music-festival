@@ -209,9 +209,11 @@ i:hover {
 
 @media screen and (min-width: 576px) {
     /* Hides address on bigger screen sizes */
+    
     .footer-address {
         display: none;
     }
+    
 }
 
 /* Medium devices (768px and up) */
@@ -221,9 +223,6 @@ i:hover {
     .hidden-artist {
         display: none;
     }
-
-
-
 }
 
 /* Large devices (992px and up) */
