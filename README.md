@@ -19,6 +19,13 @@ I wanted to create a site that could showcase similar kinds of content in differ
 5. [Testing](#testing)
     - [Code Validation](#code-validation)
     - [Bugs Found](#bugs-found)
+6. [Deployment & Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+7. [References](#references-fonts-bootstrap-etc)
+    - [Education Tools](#education-tools)
+    - [Design Tools](#design-tools)
+    - [Images](#images)
 
 ## Rationale
 
@@ -190,7 +197,14 @@ To fork the repository:
 
 To clone the repository:
 
+1. Login or signup to [GitHub](https://github.com/)
+2. Follow the link to the repository for this project: [liambaker93/through-the-trees](https://github.com/liambaker93/through-the-trees)
+3. Click the green code button under the title bar
+4. Select whether you want to clone using HTML, SSH or GitHub CLI and click the copy button next to the url.
+5. Open the terminal in your code editor and change the current directory to the location you'll use for the cloned directory.
+6. Type 'git clone' into the terminal, paste the link and press enter.
 
+- - -
 
 ## References (Fonts, bootstrap etc)
 
