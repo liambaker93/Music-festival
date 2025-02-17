@@ -55,25 +55,25 @@ The first three pages (index, artist & food) all scored lowest on performance.
 The low scores on the performance category were down to the sizing of images within the pages. In hindsight, compressing the image sizes before loading them into the project would most likely have helped this as the load of the content would have been reduced.
 
 
-![index.html](/music-festival/readme/images/testing/index-lighthouse-desktop.PNG)
+![index.html](./readme/images/testing/index-lighthouse-desktop.PNG)
 
-![artists.html](/music-festival/readme/images/testing/artist-lighthouse-desktop.PNG)
+![artists.html](./readme/images/testing/artist-lighthouse-desktop.PNG)
 
-![food.html](/music-festival/readme/images/testing/food-lighthouse-desktop.PNG)
+![food.html](./readme/images/testing/food-lighthouse-desktop.PNG)
 
-![boooking.html](/music-festival/readme/images/testing/booking-lighthouse-desktop.PNG)
+![boooking.html](./readme/images/testing/booking-lighthouse-desktop.PNG)
 
 #### Mobile Results
 
 The booking page scored the best across all four categories, suggesting again that the pictures are what's slowing the page down due to the booking page having no images depending on the size of the screen.
 
-![index.html](/music-festival/readme/images/testing/index-lighthouse.PNG)
+![index.html](./readme/images/testing/index-lighthouse.PNG)
 
-![artists.html](/music-festival/readme/images/testing/artist-lighthouse.PNG)
+![artists.html](./readme/images/testing/artist-lighthouse.PNG)
 
-![food.html](/music-festival/readme/images/testing/food-lighthouse.PNG)
+![food.html](./readme/images/testing/food-lighthouse.PNG)
 
-![booking.html](/music-festival/readme/images/testing/booking-lighthouse.PNG)
+![booking.html](./readme/images/testing/booking-lighthouse.PNG)
 
 - - -
 
