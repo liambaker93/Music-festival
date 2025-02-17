@@ -100,6 +100,7 @@ p {
     width: 325px;
     height: 300px;
     padding: 0;
+    margin-bottom: 15px;
 }
 
 .secondary-heading {
@@ -215,9 +216,8 @@ i:hover {
         display: none;
     }
 
-    #secondary-artists {
-        margin-bottom: 5px;
-    }
+
+
 }
 
 /* Large devices (992px and up) */
