@@ -16,6 +16,9 @@ I wanted to create a site that could showcase similar kinds of content in differ
 4. [Styling](#styling)
     - [Fonts](#fonts)
     - [Colors](#colours)
+5. [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Bugs Found](#bugs-found)
 
 ## Rationale
 
@@ -84,40 +87,80 @@ The first font I found on google fonts was 'Almendra'.
 
 Almendra is the font I've used for all headings in elements.
 
-<img src="../>
-
-<img src="../music-festival/readme/images/fonts and colours/almendra-font.webp" alt="Screenshot showing google font Almendra" width="1000">
+![Almendra Font](./readme/images/fonts%20and%20colours/almendra-font.webp)
 
 The next font I found which became the 'secondary-font' variable was 'Raleway'.
 
-<img src="../music-festival/readme/images/fonts and colours/raleway.webp" alt="Screenshot showing google font Raleway" width="1000">
+![Raleway Font](./readme/images/fonts%20and%20colours/raleway.webp)
+
+
 
 ### Colours
 
+I used coolors to find the colours I wanted. I knew I wanted to go for a forestry, earthy palette due to it being an outdoor music festival, so I went through the site until I found colours that I felt complimented each other.
 
+![Coolors palette](./readme/images/fonts%20and%20colours/festival-color-palette.png)
+
+I then found that when creating the hero image on the homepage, that using the shamrock green as the main font colour looked too dark and the contrast was terrible.
+
+Below is coolor's contrast checker result for the primary font colour against the main background colour of the hero-image: 
+
+![Hero image original text colour contrast](./readme/images/fonts%20and%20colours/hero-heading-first-colour.PNG)
+
+Below is the updated colour contrast after using devtools to find the right amount of text-shadow to highlight the text and brighten the colour:
+
+![Hero image updated text colour contrast](./readme/images/fonts%20and%20colours/hero-heading-second-colour.PNG)
+
+And below is how the final header looks: 
+
+![Hero image with text overlay](./readme/images/fonts%20and%20colours/hero-heading.PNG)
+
+- - -
 
 ## Testing
+
+Go to [TESTING.md](TESTING.md) for all the testing I completed.
 
 ### Code Validation
 
 One of the common info boxes I had show up during the validation process was 'trailing slashes on void elements'. Self closing elements had slashes ahead of the closing tags which the validator flagged as being unneeded so I went through the code on all the pages to eliminate these. 
 
-<img src="../music-festival/readme/images/testing/html-validation.PNG" alt="Screenshot of web page showing validated HTML" width="250">
+![Original validation attempt on the homepage](./readme/images/testing/html-validation.PNG)
 
 One warning that was suggested by the validator was having a section which had no heading underneath it. The following is the validator comment, and below is the content displayed on the site:
 
-<img src="../music-festival/readme/images/testing/index-booking-validation.PNG" alt="Screenshot of web page showing invalid HTML line" width="250">
+![Homepage booking modal validation comments](./readme/images/testing/index-booking-validation.PNG)
 
-<img src="../music-festival/readme/images/testing/index-booking-validation-content.PNG" alt="Screenshot of a web page with a booking form with no title" width="250">
+![Homepage booking modal content](./readme/images/testing/index-booking-validation-content.PNG)
 
 I then added a H5 element above the table in the modal, to highlight what the box was for which would help with the user experience when it's clicked on. The following is the code I added, and below is the final result of the content:
 
-<img src="../music-festival/readme/images/testing/index-booking-validation-fix.PNG" alt="Screenshot of code showing the addition of a text line informing the user to book a ticket now." width="250">
+![Homepage booking modal code fix](./readme/images/testing/index-booking-validation-fix.PNG)
 
-<img src="../music-festival/readme/images/testing/index-booking-validation-fix-content.PNG" alt="Screenshot of a webpage's booking form with a title advising the user to book their ticket." width="250">
+![Homepage booking modal content after fix](./readme/images/testing/index-booking-validation-fix-content.PNG)
+
+The homepage validation also included a comment relating to the same modal which referred to the 'Full Weekend' ticket option being a placeholder, and the selection by default. It suggested it as a warning rather than an error, which I assume is because it may be bad practice to automatically have the user directed to a selection that could end up being the wrong one if they're not paying attention. 
+
+I wanted the content of the information box to lead the user into specifically clicking that link to book that ticket type, however I opted to change it to keep in line with best practices on the web.
+
+![Homepage booking modal ticket type selection validation result](./readme/images/testing/index-validation-placeholder.PNG)
+
+![Homepage booking modal ticket type code fix](./readme/images/testing/index-booking-validation-fix.PNG)
+
+![Homepage booking modal ticket type content after fix](./readme/images/testing/index-booking-validation-fix-content.PNG)
+
+The final validation results can be found [here](./TESTING.md/#w3c-validator)
+
+### Bugs found
+
+| No | Bug | Solution
+| -- | ---- | ------ |
+| 1 | Logo in navbar wasn't appearing | I had changed the filepath for the logo as I needed to take a capital out of the name to keep in named traditionally. Fixing the file path then brought back the logo. |
+| 2 | Artist page had a horizontal scroll bar. | This was due to the main content of the page not being wrapped in it's own div element with a col class to keep it within bootstrap's defined width. |
+| 3 | Footer wasn't reaching full width of the page | The footer was kept in a container class which was unneeded, and once removed pushed the footer as wide as the screen size. |
 
 
-### Bugs found:
+
 
 ## Deployment
 
