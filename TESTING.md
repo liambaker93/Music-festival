@@ -2,13 +2,17 @@
 
 ## Contents 
 
-### - Automated Testing
-- W3C Validator
-- Google Lighthouse 
+- [Automated Testing](#automated-testing)
+    - [W3C Validator](#w3c-validator)
+    - [Lighthouse](#lighthouse)
 
-### - Manual Testing
-- Testing User Stories
-- Full Testing
+
+- [Manual Testing](#manual-testing)
+    - [Testing User Stories](#testing-user-stories)
+    - [Full Testing](#full-testing)
+
+- - -
+
 
 Initially when building the site I was building it focussing on the user experience on a desktop browser, while paying attention to what kinds of Bootstrap classes and content I was using and how I would be able to add to them and/or edit them to make the site responsive later down the line.
 
@@ -16,23 +20,25 @@ My main tool for checking responsivity across the site was using Google Develope
 
 Each page has been tested for responsivity using Chrome's devtools at a variety of different screen sizes. Different devices have also been used to help me make sure that the website is functional across them.
 
+- - -
+
 ## Automated Testing
 
 ### W3C Validator
 
 W3C was used to validate all pages of HTML and the CSS style sheet.
 
-- index.html - Passed with a warning- the warning regards a section of the HTML that doesn't have a heading in it, but this section is a carousel of images which I didn't choose to add a heading to.
+- [index.html](./readme/images/testing/index-validation-final.PNG) - Passed with a warning- the warning regards a section of the HTML that doesn't have a heading in it, but this section is a carousel of images which I didn't choose to add a heading to.
 
-- artists.html - Passed with no errors or warning.
+- [artists.html](./readme/images/testing/artist-validation.PNG) - Passed with no errors or warning.
 
-- food.html - Passed with no errors or warning.
+- [food.html](./readme/images/testing/food-validation.PNG) - Passed with no errors or warning.
 
-- booking.html - Passed with no errors or warning.
+- [booking.html](./readme/images/testing/booking-validation.PNG) - Passed with no errors or warning.
 
-- success.html - Passed with no errors or warning.
+- [success.html](./readme/images/testing/success-validation.PNG) - Passed with no errors or warning.
 
-- style.css - Passed with no errors.
+- [style.css](./readme/images/testing/css-validation.PNG) - Passed with no errors.
 
 - - - 
 
@@ -124,12 +130,24 @@ Full testing was performed on Google chrome on a Desktop PC and on a Samsung Gal
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | ---- | ---- | --- | --- |
 | Icon Nav Button | Loads the index page | Click on the button | Loads back to the homepage | Pass |
-| Selecting 
+| Selecting menu buttons loads a pop up | Loads a pop up directing the user to follow an instagram page | Click on each menu button | Loads pop up | Pass |
+| Social links in pop up | Lead to relevant app/site | Click each link in pop up | Taken to relevant site/app | Pass |
+| Nav buttons | Leads user to expected site page | Clicked each nav bar link from Artists page | Loaded each correct page | Pass |
+| Navbar toggle on small screens | Opens Nav bar | Click navbar menu button | Opened Navbar options | Pass |
+| Embedded map | Selecting loads google maps | Clicking on the map | Loaded google maps | Pass |
 
+`Booking page`
 
-
-
-
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | ---- | ---- | --- | --- |
+| Submit Requirement | Form should not submit if all of the options are not filled | Tried submitting without a name | Page asks for a name to be filled | Pass |
+| Submit Requirement | Form should not submit if all of the options are not filled | Tried submitting without an email | Page asks for a name to be filled | Pass |
+| Submit Requirement | Form should not submit if all of the options are not filled | Tried submitting without a ticket type | Page asks for a name to be filled | Pass |
+| Booking submission | Form should take you to success page when completed fully | Submitted full form with each ticket type | Success page loads | Pass |
+| Icon Nav Button | Loads the index page | Click on the button | Loads back to the homepage | Pass |
+| Nav buttons | Leads user to expected site page | Clicked each nav bar link from Artists page | Loaded each correct page | Pass |
+| Navbar toggle on small screens | Opens Nav bar | Click navbar menu button | Opened Navbar options | Pass |
+| Embedded map | Selecting loads google maps | Clicking on the map | Loaded google maps | Pass |
 
 
 
