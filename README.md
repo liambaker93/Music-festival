@@ -59,6 +59,10 @@ The phone designs were designed to just be smaller versions of the main pages, t
 
 The first font I found on google fonts was 'Almendra'.
 
+Almendra is the font I've used for all headings in elements.
+
+<img src="../>
+
 <img src="../music-festival/readme/images/fonts and colours/almendra-font.webp" alt="Screenshot showing google font Almendra" width="1000">
 
 The next font I found which became the 'secondary-font' variable was 'Raleway'.
