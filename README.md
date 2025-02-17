@@ -208,9 +208,17 @@ To clone the repository:
 
 ## References (Fonts, bootstrap etc)
 
+Thanks to my mentor Jubril Akolade for helping me work through some key aspects of web design and how to make the most out of my working!
+
+Thanks to our course leader Jessica Bassey also for being helpful with specific queries I had at any point about why somethings may or may not be working!
+
 ### Education Tools
 
 [Digital Ocean helped with troubleshooting issues relating to image sizing within cards](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit)
+
+[Stack Overflow helped a lot with various topics, one example being figuring out which elements were pushing the footer on the artist page](https://stackoverflow.com/questions/6060417/find-out-what-html-elements-are-forcing-the-page-block-section-to-be-wide-tall)
+
+[Bootstrap was instrumental in helping me piece it together and easily make the website responsive](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
 
 ### Design Tools
 
