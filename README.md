@@ -8,25 +8,39 @@ I wanted to create a site that could showcase similar kinds of content in differ
 
 ## Table of Contents
 
-1. Rationale
-2. User Stories
-3. Styling
-4. 
+1. [Rationale](#rationale)
+2. [User Stories](#user-stories)
+3. [Wireframes](#wireframes)
+    - [Desktop Wireframes](#desktop-wireframes)
+    - [Phone Wireframes](#phone-wireframes)
+4. [Styling](#styling)
+    - [Fonts](#fonts)
+    - [Colors](#colours)
 
 ## Rationale
 
+This project is designed to showcase the different aspects to a music festival that a user may come to expect, with the goal of allowing the user to quickly and easily submit a request to get a ticket. 
 
+I wanted to make sure that the user was never far away from being able to see the key information that they may feel they need, with their eyeline being drawn towards the main features they need to see. An example of this would be the artists page needing to clearly showcase the headlining acts for both days, and the support acts being supplementary pieces below the main events.
+
+Being able to point the user towards relevant social links was also important to me, hence the inclusion of spotify as a social link as I felt this gave the page some brand cohesion.
+
+One limitation of the project currently was that I imagined there being an audio element to the page, direct spotify links to playlists / specific songs by the artists. Having these would've made the site feel more feature complete as the user would be able to get a better sample of what to expect from the festival. As well as that, not having menus created for the food vendors meant that the links to the menus had to be creative. I opted to have a popup open that alerts the user to the promise of an update in the future regarding the food but, to maintain interest and retention, they can follow links to the social account of the festival and be updated when those elements go live. 
+
+I commented on that modal to allow any future developers of the code to know where the modal is and how it's currently being used, with the idea that specific ones would be created for each food vendor, all four of them currently using the same modal for simplicity.
+
+As it currently stands it's quite a simple site, however it has all the pieces in it to get a small, independent festival ready to showcase exactly what they're all about to any potential music fans in the future. 
 
 ## User Stories
 
-I don't go to many festivals but particularly want to see one artist and want the flexibility
-to go just to see them.
+- "I don't go to many festivals but particularly want to see one artist and want the flexibility
+to go just to see them."
 
-I'm a regular festival goer and want to see the variety of artists I can watch, different
-timings, and see what food options there are for me. 
+- "I'm a regular festival goer and want to see the variety of artists I can watch, different
+timings, and see what food options there are for me."
 
-I'm a food vendor and want to be able to sign up to bring  my business to the festival, so will
-need a way to contact the organisers.
+- "I'm a food vendor and want to be able to sign up to bring  my business to the festival, so will
+need a way to contact the organisers."
 
 ## Wireframes
 
@@ -38,7 +52,7 @@ I knew that I wanted the main call to action button to be the book now button wh
 
 Specifically with the homepage I wanted to have a carousel of images that would show off the vibe of the festival, with a text box next to it giving a brief description for the user to understand a little about the festival itself. If the description sounded appealing then the aim is for the user to be guided to the Artists page to see who's playing...
 
-<img src="../music-festival/readme/images/wireframes/home-page-desktop.webp" alt="Wireframe design of a website homepage" width="500">
+![Homepage Desktop Wireframe](./readme/images/wireframes/home-page-desktop.webp)
 
 With the Artists page, I wanted to use cards to showcase the two main headlining acts, one for Saturday and one for Sunday, and then have a row of cards beneath to show other artists performing. This would give the user the chance to see if anyone they know is performing which would then push them to want to book their tickets to come to the festival.
 
@@ -51,6 +65,8 @@ The Food page was a page I wanted to add to help round out the idea that this wa
 The final page is the main booking page. On this page I wanted to give the user the option of which dates they wanted to attend as well as the number of tickets they want to order. To make the page more engaging, I planned on putting a carousel of images behind the booking form to liven the page up.
 
 <img src="../music-festival/readme/images/wireframes/booking-page-desktop.webp" alt="Wireframe design of a website booking page." width="500">
+
+- - -
 
 ### Phone Wireframes
 
