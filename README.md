@@ -56,15 +56,15 @@ Specifically with the homepage I wanted to have a carousel of images that would 
 
 With the Artists page, I wanted to use cards to showcase the two main headlining acts, one for Saturday and one for Sunday, and then have a row of cards beneath to show other artists performing. This would give the user the chance to see if anyone they know is performing which would then push them to want to book their tickets to come to the festival.
 
-<img src="../music-festival/readme/images/wireframes/artists-page-desktop.webp" alt="Wireframe design of a website page for a music festival, showcasing artists performing." width="500">
+![Artist page Desktop Wireframe](./readme/images/wireframes/artists-page-desktop.webp)
 
 The Food page was a page I wanted to add to help round out the idea that this was a festival with more to it than just music, and had some actual thought put into it. In terms of layout design, I wanted it to resemble the artists page closely, however I didn't want to give the impression of 'headliner' food options, so opted to have all the cards be the same size and layout.
 
-<img src="../music-festival/readme/images/wireframes/food-page-desktop.webp" alt="Wireframe design of a website page showcasing food trucks at a festival." width="500">
+![Food page Desktop Wireframe](./readme/images/wireframes/food-page-desktop.webp)
 
 The final page is the main booking page. On this page I wanted to give the user the option of which dates they wanted to attend as well as the number of tickets they want to order. To make the page more engaging, I planned on putting a carousel of images behind the booking form to liven the page up.
 
-<img src="../music-festival/readme/images/wireframes/booking-page-desktop.webp" alt="Wireframe design of a website booking page." width="500">
+![Booking page Desktop Wireframe](./readme/images/wireframes/booking-page-desktop.webp)
 
 - - -
 
@@ -72,7 +72,9 @@ The final page is the main booking page. On this page I wanted to give the user 
 
 The phone designs were designed to just be smaller versions of the main pages, taking away some content where it wouldn't make sense to have on a smaller screen, for example the carousel of images behind the booking form on the booking page. 
 
-<!--Wireframe for homepage on a phone--> <img src="../music-festival/readme/images/wireframes/homepage-phone.PNG" alt="Wireframe design of a website for a music festival displayed on a phone." width="250"> <!--Wireframe for artists page on a phone--> <img src="../music-festival/readme/images/wireframes/artistpage-phone.PNG" alt="Wireframe design of a website page showcasing artists for a music festival, displayed on a phone." width="250"> <!--Wireframe for foodpage on a phone--><img src="../music-festival/readme/images/wireframes/foodpage-phone.PNG" alt="Wireframe design of a website page showcasing food trucks at a festival, displayed on a phone." width="250"> <!--Wireframe for phone booking page--> <img src="../music-festival/readme/images/wireframes/bookingpage-phone.PNG" alt="Wireframe design of a website page showing a booking form, displayed on a phone." width="250">
+![Homepage Phone Wireframe](./readme/images/wireframes/bookingpage-phone.PNG) ![Artist page Phone Wireframe](./readme/images/wireframes/artistpage-phone.PNG) ![Food page Phone Wireframe](./readme/images/wireframes/foodpage-phone.PNG) ![Booking page phone wireframe](./readme/images/wireframes/bookingpage-phone.PNG)
+
+- - -
 
 ## Styling
 
